@@ -39,7 +39,7 @@ public class PetClinicTest {
     p =new Properties();
 	fi =new FileInputStream(".\\src\\main\\java\\Resource\\Data.properties");
 	p.load(fi);
-	driver.get(p.getProperty("objurl"));
+	driver.get(p.getProperty("objurl1"));
 	driver.manage().window().maximize();
     //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
