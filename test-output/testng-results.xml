@@ -8,30 +8,30 @@
       <![CDATA[User information not found]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35933" started-at="2018-12-30T07:53:52Z" finished-at="2018-12-30T07:54:28Z">
+  <suite name="Default suite" duration-ms="44333" started-at="2018-12-30T15:50:02Z" finished-at="2018-12-30T15:50:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35933" started-at="2018-12-30T07:53:52Z" finished-at="2018-12-30T07:54:28Z">
+    <test name="Default test" duration-ms="44333" started-at="2018-12-30T15:50:02Z" finished-at="2018-12-30T15:50:47Z">
       <class name="MainTestcase.PetClinicTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:MainTestcase.PetClinicTest@7cbd213e]" name="setUp" is-config="true" duration-ms="10773" started-at="2018-12-30T07:53:52Z" finished-at="2018-12-30T07:54:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MainTestcase.PetClinicTest@3ecd23d9]" name="setUp" is-config="true" duration-ms="18552" started-at="2018-12-30T15:50:02Z" finished-at="2018-12-30T15:50:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:MainTestcase.PetClinicTest@7cbd213e]" name="Test1" duration-ms="14534" started-at="2018-12-30T07:54:03Z" description="AddOwnerandpet" finished-at="2018-12-30T07:54:18Z">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:MainTestcase.PetClinicTest@3ecd23d9]" name="Test1" duration-ms="11150" started-at="2018-12-30T15:50:23Z" description="AddOwnerandpet" finished-at="2018-12-30T15:50:34Z">
           <reporter-output>
             <line>
               <![CDATA[Owner Added success]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:MainTestcase.PetClinicTest@7cbd213e]" name="Test2" duration-ms="7923" started-at="2018-12-30T07:54:18Z" description="Findowner" finished-at="2018-12-30T07:54:26Z">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:MainTestcase.PetClinicTest@3ecd23d9]" name="Test2" duration-ms="7766" started-at="2018-12-30T15:50:34Z" description="Findowner" finished-at="2018-12-30T15:50:41Z">
           <reporter-output>
             <line>
               <![CDATA[User information not found]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:MainTestcase.PetClinicTest@7cbd213e]" name="tearDown" is-config="true" duration-ms="2576" started-at="2018-12-30T07:54:26Z" finished-at="2018-12-30T07:54:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MainTestcase.PetClinicTest@3ecd23d9]" name="tearDown" is-config="true" duration-ms="5202" started-at="2018-12-30T15:50:41Z" finished-at="2018-12-30T15:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
