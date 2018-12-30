@@ -1,157 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[Owner Added success]]>
+    </line>
+    <line>
+      <![CDATA[User information not found]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56775" started-at="2018-12-30T16:20:14Z" finished-at="2018-12-30T16:21:11Z">
+  <suite name="Default suite" duration-ms="46022" started-at="2018-12-30T16:22:14Z" finished-at="2018-12-30T16:23:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56775" started-at="2018-12-30T16:20:14Z" finished-at="2018-12-30T16:21:11Z">
+    <test name="Default test" duration-ms="46022" started-at="2018-12-30T16:22:14Z" finished-at="2018-12-30T16:23:00Z">
       <class name="MainTestcase.PetClinicTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:MainTestcase.PetClinicTest@3ecd23d9]" name="setUp" is-config="true" duration-ms="53430" started-at="2018-12-30T16:20:14Z" finished-at="2018-12-30T16:21:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MainTestcase.PetClinicTest@3ecd23d9]" name="setUp" is-config="true" duration-ms="15548" started-at="2018-12-30T16:22:14Z" finished-at="2018-12-30T16:22:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="Test1()[pri:0, instance:MainTestcase.PetClinicTest@3ecd23d9]" name="Test1" duration-ms="1089" started-at="2018-12-30T16:21:07Z" description="AddOwnerandpet" finished-at="2018-12-30T16:21:08Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[{"errorMessage":"Unable to find element with xpath '//*[@id=\"main-navbar\"]/ul/li[2]/a'","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"97","Content-Type":"application/json; charset=utf-8","Host":"localhost:11066","User-Agent":"selenium/3.14.0 (java windows)"},"httpVersion":"1.1","method":"POST","post":"{\n  \"using\": \"xpath\",\n  \"value\": \"\\u002f\\u002f*[@id=\\\"main-navbar\\\"]\\u002ful\\u002fli[2]\\u002fa\"\n}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/cfa2b4c0-0c4e-11e9-affb-a1c6ed144afb/element"}}
-Command duration or timeout: 0 milliseconds]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: {"errorMessage":"Unable to find element with xpath '//*[@id=\"main-navbar\"]/ul/li[2]/a'","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"97","Content-Type":"application/json; charset=utf-8","Host":"localhost:11066","User-Agent":"selenium/3.14.0 (java windows)"},"httpVersion":"1.1","method":"POST","post":"{\n  \"using\": \"xpath\",\n  \"value\": \"\\u002f\\u002f*[@id=\\\"main-navbar\\\"]\\u002ful\\u002fli[2]\\u002fa\"\n}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/cfa2b4c0-0c4e-11e9-affb-a1c6ed144afb/element"}}
-Command duration or timeout: 0 milliseconds
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at PageClass.Home.Clickownersandpets(Home.java:24)
-at PageClass.Ownersandpets.Addnewowner(Ownersandpets.java:69)
-at MainTestcase.PetClinicTest.Test1(PetClinicTest.java:51)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
-... 41 more
-Caused by: org.openqa.selenium.NoSuchElementException: {"errorMessage":"Unable to find element with xpath '//*[@id=\"main-navbar\"]/ul/li[2]/a'","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"97","Content-Type":"application/json; charset=utf-8","Host":"localhost:11066","User-Agent":"selenium/3.14.0 (java windows)"},"httpVersion":"1.1","method":"POST","post":"{\n  \"using\": \"xpath\",\n  \"value\": \"\\u002f\\u002f*[@id=\\\"main-navbar\\\"]\\u002ful\\u002fli[2]\\u002fa\"\n}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/cfa2b4c0-0c4e-11e9-affb-a1c6ed144afb/element"}}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'CHAITANYA', ip: '192.168.0.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:MainTestcase.PetClinicTest@3ecd23d9]" name="Test1" duration-ms="20549" started-at="2018-12-30T16:22:29Z" description="AddOwnerandpet" finished-at="2018-12-30T16:22:50Z">
           <reporter-output>
+            <line>
+              <![CDATA[Owner Added success]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method status="FAIL" signature="Test2()[pri:0, instance:MainTestcase.PetClinicTest@3ecd23d9]" name="Test2" duration-ms="753" started-at="2018-12-30T16:21:08Z" description="Findowner" finished-at="2018-12-30T16:21:09Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[{"errorMessage":"Unable to find element with xpath '//*[@id=\"main-navbar\"]/ul/li[2]/a'","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"97","Content-Type":"application/json; charset=utf-8","Host":"localhost:11066","User-Agent":"selenium/3.14.0 (java windows)"},"httpVersion":"1.1","method":"POST","post":"{\n  \"using\": \"xpath\",\n  \"value\": \"\\u002f\\u002f*[@id=\\\"main-navbar\\\"]\\u002ful\\u002fli[2]\\u002fa\"\n}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/cfa2b4c0-0c4e-11e9-affb-a1c6ed144afb/element"}}
-Command duration or timeout: 0 milliseconds]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: {"errorMessage":"Unable to find element with xpath '//*[@id=\"main-navbar\"]/ul/li[2]/a'","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"97","Content-Type":"application/json; charset=utf-8","Host":"localhost:11066","User-Agent":"selenium/3.14.0 (java windows)"},"httpVersion":"1.1","method":"POST","post":"{\n  \"using\": \"xpath\",\n  \"value\": \"\\u002f\\u002f*[@id=\\\"main-navbar\\\"]\\u002ful\\u002fli[2]\\u002fa\"\n}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/cfa2b4c0-0c4e-11e9-affb-a1c6ed144afb/element"}}
-Command duration or timeout: 0 milliseconds
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at PageClass.Home.Clickownersandpets(Home.java:24)
-at PageClass.Ownersandpets.Findowner(Ownersandpets.java:86)
-at MainTestcase.PetClinicTest.Test2(PetClinicTest.java:70)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
-... 41 more
-Caused by: org.openqa.selenium.NoSuchElementException: {"errorMessage":"Unable to find element with xpath '//*[@id=\"main-navbar\"]/ul/li[2]/a'","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"97","Content-Type":"application/json; charset=utf-8","Host":"localhost:11066","User-Agent":"selenium/3.14.0 (java windows)"},"httpVersion":"1.1","method":"POST","post":"{\n  \"using\": \"xpath\",\n  \"value\": \"\\u002f\\u002f*[@id=\\\"main-navbar\\\"]\\u002ful\\u002fli[2]\\u002fa\"\n}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/cfa2b4c0-0c4e-11e9-affb-a1c6ed144afb/element"}}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'CHAITANYA', ip: '192.168.0.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:MainTestcase.PetClinicTest@3ecd23d9]" name="Test2" duration-ms="7996" started-at="2018-12-30T16:22:50Z" description="Findowner" finished-at="2018-12-30T16:22:58Z">
           <reporter-output>
+            <line>
+              <![CDATA[User information not found]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:MainTestcase.PetClinicTest@3ecd23d9]" name="tearDown" is-config="true" duration-ms="1362" started-at="2018-12-30T16:21:09Z" finished-at="2018-12-30T16:21:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MainTestcase.PetClinicTest@3ecd23d9]" name="tearDown" is-config="true" duration-ms="1840" started-at="2018-12-30T16:22:58Z" finished-at="2018-12-30T16:23:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
