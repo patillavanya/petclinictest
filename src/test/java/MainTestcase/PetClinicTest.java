@@ -31,9 +31,9 @@ public class PetClinicTest {
   @BeforeTest
   public void setUp() throws Exception {
 	//phantom JS windows
-	System.setProperty("phantomjs.binary.path","phantomjs.exe");
+	//System.setProperty("phantomjs.binary.path","phantomjs.exe");
 	//phantom JS windows
-	//System.setProperty("phantomjs.binary.path","phantomjs");
+	System.setProperty("phantomjs.binary.path","phantomjs");
     driver = new PhantomJSDriver();
     report = new ExtentReports("./Reports/PomReport.html");
     p =new Properties();
