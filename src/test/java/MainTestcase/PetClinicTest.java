@@ -37,7 +37,7 @@ public class PetClinicTest {
     driver = new PhantomJSDriver();
     report = new ExtentReports("./Reports/PomReport.html");
     p =new Properties();
-	fi =new FileInputStream(".\\src\\main\\java\\Resource\\Data.properties");
+	fi =new FileInputStream("./src/main/java/Resource/Data.properties");
 	p.load(fi);
 	driver.get(p.getProperty("objurl"));
 	driver.manage().window().maximize();
