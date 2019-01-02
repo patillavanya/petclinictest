@@ -29,7 +29,7 @@ public class Ownersandpets {
 	WebElement Enter_address;
 	@FindBy(id="city")
 	WebElement Enter_City;
-	@FindBy(id="itelephone")
+	@FindBy(id="telephone")
 	WebElement Enter_Mobile;
 	@FindBy(xpath="//*[@id=\"add-owner-form\"]/div[2]/div/button")
 	WebElement Click_Addowner;
