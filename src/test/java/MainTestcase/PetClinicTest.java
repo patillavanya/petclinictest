@@ -51,7 +51,7 @@ public class PetClinicTest {
 	  pet.Addnewowner("CHAITA","RAJU","2-30/1","HYD","8885563555");
 	  WebElement text = driver.findElement(By.xpath("/html/body/div/div/h2[2]"));
 	 
-	  if(text.getText().equals("iPets and Visits")) {
+	  if(text.getText().equals("Pets and Visits")) {
 		Reporter.log("Owner Added success",true);
 		logger.log(LogStatus.PASS, "Owner Added");
 		pet.Addnewpet("Raju", "2018/11/11", 1);
