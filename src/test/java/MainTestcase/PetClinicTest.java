@@ -33,8 +33,10 @@ public class PetClinicTest {
 	//phantom JS windows
 	//System.setProperty("phantomjs.binary.path","phantomjs.exe");
 	//phantom JS Linux
-	System.setProperty("phantomjs.binary.path","/usr/bin/phantomjs");
-    driver = new PhantomJSDriver();
+	//System.setProperty("phantomjs.binary.path","/usr/bin/phantomjs");
+    //driver = new PhantomJSDriver();
+	  
+	driver = new ChromeDriver();
     Thread.sleep(5000); 
     report = new ExtentReports("./Reports/PomReport.html");
     p =new Properties();
