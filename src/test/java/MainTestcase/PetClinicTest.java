@@ -35,6 +35,7 @@ public class PetClinicTest {
 	//phantom JS Linux
 	System.setProperty("phantomjs.binary.path","/usr/bin/phantomjs");
     driver = new PhantomJSDriver();
+    Thread.sleep(5000); 
     report = new ExtentReports("./Reports/PomReport.html");
     p =new Properties();
 	fi =new FileInputStream("./src/main/java/Resource/Data.properties");
