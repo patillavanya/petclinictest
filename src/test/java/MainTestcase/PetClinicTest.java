@@ -52,7 +52,7 @@ public class PetClinicTest {
 	  Ownersandpets pet=PageFactory.initElements(driver, Ownersandpets.class);
 	  logger=report.startTest("AddownerandPet");
 	  pet.Addnewowner("CHAITA","RAJU","2-30/1","HYD","8885563555");
-	  WebElement text = driver.findElement(By.xpath("/html/body/div/div/h2[2]"));
+	  WebElement text = driver.findElement(By.xpath("/html/body/div/div/h2[3]"));
 	 
 	  if(text.getText().equals("Pets and Visits")) {
 		Reporter.log("Owner Added success",true);
